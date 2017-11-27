@@ -1,0 +1,226 @@
+body {
+    font-family: "Cantarell" !important;
+    line-height: 2em !important;
+}
+
+nav {
+    background-color: #161925!important;
+    padding: 1%;
+    font-family: "Raleway";
+}
+
+nav a {
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+}
+
+.nav_link:hover {
+    border-bottom: 2px solid #f75c03;
+}
+
+
+.banner {
+    background: url(images/banner_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 5%;
+    font-family: "Cantarell";
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+
+@media screen and (max-width: 568px) {
+    .banner h1 {
+        padding-top: 50px;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    .banner h3 {
+        font-size: 15px;
+    }
+
+    .social_buttons a {
+        padding: 5px;
+        font-size: 80%;
+        line-height: 1;
+    }
+
+    .about_me h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px !important;
+    }
+
+    .mobile_top_padding {
+        padding-top: 15% !important;
+    }
+}
+
+.job_title {
+    padding-top: 15%;
+}
+
+.social_buttons {
+    padding-top: 3%;
+    padding-bottom: 20%;
+}
+
+
+#twitterIcon {
+    color: #00aced;
+}
+
+#googlePlusIcon {
+    color: #dd4b39;
+}
+
+#githubIcon {
+    color: #007b23;
+}
+
+#linkedinIcon {
+    color: #007bb6;
+}
+
+.about_me {
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 13%;
+    padding-right: 13%;
+    line-height: 2em;
+    font-family: "Cantarell";
+    font-size: large;
+}
+
+.about_me h2 {
+    font-weight: bolder;
+}
+
+.about_me img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+}
+
+.services {
+    background-color: #161925;
+    color: #fff;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.services h1 {
+    color: #f75c03;
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+.service_icons {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.skills {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.skills h1 {
+
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+
+
+
+.skill_icons {
+    font-size: 70px;
+    color: #161925;
+}
+
+.projects {
+    background-color: #161925;
+    color: #fff;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.projects h1 {
+    color: #f75c03;
+    font-weight: bolder;
+    padding-bottom: 3%;
+}
+
+.projects img {
+    height: 100%;
+    width: 100%;
+}
+
+.projects img:hover {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+    padding-top: 10px;
+    background: rgba(225, 225, 225, .4);
+}
+
+.col-md-2,
+.col-md-4 {
+    padding-bottom: 5%;
+}
+
+.contact {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    font-size: large;
+}
+
+.submit_button {
+    background-color: #f75c03;
+}
+
+.submit_button:hover {
+    background-color: #f1c40f;
+    font-weight: bold;
+}
+
+.contact h1 {
+
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+
+.footer {
+    background-color: #161925;
+    padding: 3%;
+}
+
+.footer p {
+    color: #fff;
+}
