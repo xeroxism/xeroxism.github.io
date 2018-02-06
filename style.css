@@ -39,12 +39,8 @@ nav a {
 
 /*The scrolling down arrow button on the home page*/
 
-.arrow {
-  margin: 3% 0;
-}
-
 .banner a {
-  color: #fff;
+  color: #fff !important;
 }
 
 .banner a:hover {
