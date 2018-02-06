@@ -37,6 +37,41 @@ nav a {
 }
 
 
+/*The scrolling down arrow button on the home page*/
+
+.arrow {
+  padding-top: 5%;
+  margin: 8% 0;
+}
+
+/*.banner a {
+  color: #fff;
+}
+
+.banner a:hover {
+  text-decoration: none;
+}*/
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+/*end of bouncing styles*/
+
+
 
 @media screen and (max-width: 568px) {
     .banner h1 {
