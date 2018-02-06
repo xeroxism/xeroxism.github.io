@@ -39,11 +39,11 @@ nav a {
 
 /*The scrolling down arrow button on the home page*/
 
-.banner a {
-  color: #fff !important;
+.bounce a {
+  color: #fff;
 }
 
-.banner a:hover {
+.bounce a:hover {
   text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ nav a {
 
 .social_buttons {
     padding-top: 3%;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 }
 
 
