@@ -40,17 +40,16 @@ nav a {
 /*The scrolling down arrow button on the home page*/
 
 .arrow {
-  padding-top: 5%;
-  margin: 8% 0;
+  margin: 3% 0;
 }
 
-/*.banner a {
+.banner a {
   color: #fff;
 }
 
 .banner a:hover {
   text-decoration: none;
-}*/
+}
 
 .bounce {
   -moz-animation: bounce 2s infinite;
