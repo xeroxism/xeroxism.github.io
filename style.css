@@ -41,17 +41,11 @@ nav a {
 
 .bounce a {
   color: #fff;
-  text-decoration: none; 
 }
 
 .bounce a:hover {
   text-decoration: none;
 }
-
-.bounce a:active {
-  text-decoration: none;
-}
-
 
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -114,6 +108,7 @@ nav a {
 
 .social_buttons {
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 
